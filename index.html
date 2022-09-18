@@ -16,20 +16,27 @@
 
 		<p>Calcule o quanto você ganha por hora no seu trabalho atual:</p>
 
-		<div>
-	    <label for="monthly_salary">Quanto você ganha por mês?</label>
-  		<input type="text"
-             id="monthly_salary"
-             name="monthly_salary"
-             placeholder="Se precisar, separe os centavos com ponto">
+		<div id="container">
 
-	    <label for="weekly_journey">Qual a sua jornada de trabalho semanal?</label>
-  		<input type="text"
-             id="weekly_journey"
-             name="weekly_journey"
-             placeholder="Em horas">
-	  
-	    <button id="button" class="button">Quanto eu ganho por hora?</button>
+      <div id="input_container">
+        <label for="monthly_salary">Quanto você ganha por mês?</label>
+        <input type="text"
+               id="monthly_salary"
+               name="monthly_salary"
+               placeholder="Se precisar, separe os centavos com ponto">
+      </div>
+
+      <div id="input_container">
+        <label for="weekly_journey">Qual a sua jornada de trabalho semanal?</label>
+        <input type="text"
+               id="weekly_journey"
+               name="weekly_journey"
+               placeholder="Em horas">
+      </div>
+	    
+      <div>
+        <button id="button" class="button">Quanto eu ganho por hora?</button>
+      </div>
 
 	    <span id="resultText"></span>
 		</div>
